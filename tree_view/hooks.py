@@ -70,13 +70,14 @@ app_license = "GPL v3"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+ 	"Tree": {
+		#/home/jvfiel/frappe-saas-clients/apps/tree_view/tree_view/tree_view/doctype/tree/tree.py
+ 		#"after_save": "tree_view.tree_view.doctype.tree.tree.rename",
+ 		#"on_cancel": "method",
+ 		#"on_trash": "method"
+	}
+ }
 
 # Scheduled Tasks
 # ---------------
